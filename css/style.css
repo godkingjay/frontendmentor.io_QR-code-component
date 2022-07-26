@@ -83,3 +83,9 @@ main {
 .attribution a {
 	color: hsl(228, 45%, 44%);
 }
+
+@media (max-width: 650px) {
+	body {
+		padding: 1rem;
+	}
+}
