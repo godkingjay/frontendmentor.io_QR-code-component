@@ -23,8 +23,8 @@ This is a solution to the [QR code component challenge on Frontend Mentor](https
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: ---> [LINK](https://www.frontendmentor.io/solutions/qr-code-component-html-vanilla-css-mzXmGIfcG7)
+- Live Site URL: ---> [LINK](https://godkingjay.github.io/frontendmentor.io_QR-code-component/)
 
 ## My process
 
@@ -40,7 +40,7 @@ This is a solution to the [QR code component challenge on Frontend Mentor](https
 - [Styled Components](https://styled-components.com/) - For styles
 
 ### What I learned
-s
+
 ### Continued development
 
 ### Useful resources
