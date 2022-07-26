@@ -1,0 +1,85 @@
+* {
+	box-sizing: border-box;
+}
+
+body {
+	display: flex;
+	position: relative;
+	padding: 0;
+	margin: 0;
+	min-height: 100vh;
+	background: hsl(212, 45%, 89%);
+	font-family: 'Outfit', sans-serif;
+	font-weight: 400;
+}
+
+main {
+	display: flex;
+	width: 100%;
+	max-width: 100vw;
+	align-items: center;
+	justify-content: center;
+}
+
+.card {
+	height: 100%;
+	width: 100%%;
+	max-height: 500px;
+	max-width: 320px;
+	background: white;
+	padding: 1rem;
+	border-radius: 15px;
+	overflow: hidden;
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+	box-shadow: 5px 5px 10px 0 #00000010;
+}
+
+.picture {
+	position: relative;
+	max-width: 290px;
+}
+
+.picture > img {
+	position: relative;
+	max-width: 100%;
+	aspect-ratio: 1;
+	border-radius: 15px;
+}
+
+.text {
+	position: relative;
+	display: flex;
+	flex-direction: column;
+	padding-inline: 0.5rem;
+}
+
+.title {
+	font-size: 1.3rem;
+	font-weight: 700;
+	text-align: center;
+	color: hsl(218, 44%, 22%);
+}
+
+.description {
+	font-size: 1rem;
+	margin-block: 0;
+	text-align: center;
+	color: grey;
+}
+
+.attribution {
+	position: absolute;
+	left: 50%;
+	width: 100vw;
+	transform: translate(-50%, 0);
+	bottom: 0;
+	align-self: center;
+	font-size: 14px;
+	text-align: center;
+}
+
+.attribution a {
+	color: hsl(228, 45%, 44%);
+}
